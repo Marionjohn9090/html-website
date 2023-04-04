@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Home Page</title>
+  <style>
+    /* Basic CSS styles for layout */
+    body {
+      background: linear-gradient(153deg, rgba(254,254,254,1) 43%, rgba(162,0,255,1) 100%);
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    nav {
+      float: left;
+      width: 200px;
+      height: 100vh;
+      background-color:rgba(180,180,180,1);
+      padding: 10px;
+    }
+    section {
+      margin-left: 220px;
+      padding: 10px;
+    }
+    footer {
+      color: #333;
+      text-align: center;
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    input[type="text"], input[type="email"], textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="list.html">lists</a></li>
+      <li><a href="tables.html">table</a></li>
+      <li><a href="forms.html">forms</a></li>
+    </ul>
+  </nav>
+  <section>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <tables>
+                <table>
+                <tr>
+                    <td>Salutation</td>
+                    <td><select>
+                        <option>Mr</option>
+                        <option>Mrs</option>
+                        <option>Ms</option>
+                    </select></td>
+                    <td colspan="2">Name:<input type="text" name="Name"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="radio button">Male</input></td>
+                    <td><input type="radio" name="radio button">Female</input></td>
+                    <td>DOB:<input type="date" name="Date"></input></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td colspan="2"><input type="email" name="Email"></td>
+                </tr>
+                <tr>
+                    <td>
+                    <label for="text-field">Description:</label>
+                    <input type="text" id="text-field" name="text-field" required>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">Do you want to get email address
+                    <input type="checkbox" name="checkbox">Yes</input>
+                    <input type="checkbox" name="checkbox">No</input></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><input type="submit" name="submit"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+  </section>
+  <footer>
+    <p>Copyright © INTE/MG/2136/09/21. All rights reserved.</p>
+  </footer>
+</body>
+</html>

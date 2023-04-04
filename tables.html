@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Home Page</title>
+  <style>
+    /* Basic CSS styles for layout */
+    body {
+      background: linear-gradient(153deg, rgba(254,254,254,1) 43%, rgba(162,0,255,1) 100%);
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      float: left;
+      width: 200px;
+      height: 100vh;
+      background-color:rgba(180,180,180,1);
+      padding: 10px;
+    }
+    section {
+      margin-left: 220px;
+      padding: 10px;
+    }
+    footer {
+      color:#333;
+      text-align: center;
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="list.html">lists</a></li>
+      <li><a href="tables.html">table</a></li>
+      <li><a href="forms.html">forms</a></li>
+    </ul>
+  </nav>
+  <section>
+    <h2>Table Section</h2>
+    <table border = "1">
+      <caption>Political Debate</caption>
+      <tr>
+          <th colspan="2" rowspan="2">Today's Political Party</th>
+          <th colspan="3">Political Party</th>
+      </tr>
+      <tr>
+          <th>Democrat</th>
+          <th>Republican</th>
+          <th>Independent</th>
+      </tr>
+      <tr>
+          <td rowspan="3">Do you favor increasing minimum wage</td>
+          <td>Favor</td>
+          <td>70%</td>
+          <td>35%</td>
+          <td>55%</td>
+      </tr>
+      <tr>
+          <td>Oppose</td>
+          <td>25%</td>
+          <td>60%</td>
+          <td>30%</td>
+      </tr>
+      <tr>
+          <td>Unsure</td>
+          <td>5%</td>
+          <td>5%</td>
+          <td>10%</td>
+      </tr>
+  </table>
+  </section>
+  <footer>
+    <p>Copyright © INTE/MG/2136/09/21. All rights reserved.</p>
+  </footer>
+</body>
+</html>
